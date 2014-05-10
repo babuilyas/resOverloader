@@ -1,5 +1,17 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <string name="app_name">resOverloader</string>
 
+    <string name="welcome">
+    Welcome to resOverloader.\n
+    resOverloader is fully working and helps android rooted users to use any foreign application in local language.\n
+    The application works in Xposed framework. <a href='http://forum.xda-developers.com/xposed/modules/resoverloader-overload-applications-res-t2743634'>Learn more</a>\n\n  
+    The GUI will allow users to select and translate any application to any locale/language on the fly in near future.
+    \n
+    If you like my idea and want to support further development, please donate a juice to my kids. Thank you.
+    \n
+    Email:  ilyas.com.pk@gmail.com
+    </string>
+  
+<string name="menu_settings">Settings</string>
 </resources>

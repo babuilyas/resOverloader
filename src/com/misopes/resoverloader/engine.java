@@ -64,6 +64,7 @@ public class engine implements IXposedHookZygoteInit,
 		    			"string", 
 		    			b.getAttributes().item(0).getNodeValue(), 
 		    			b.getTextContent());
+		    	XposedBridge.log("Overloading string " + b.getAttributes().item(0).getNodeValue());
 		    	
 		    	//System.out.println(b.getTextContent());
 		    	//System.out.println(b.getAttributes().item(0).getNodeValue());
